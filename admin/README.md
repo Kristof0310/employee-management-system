@@ -4,8 +4,6 @@ Admin Pages - A Fully Responsive Employee Manage System built with Vue and NodeJ
 
 **IMPORTANT: ADD ONE OR MULTIPLE ADMINS IN THE SERVER MANUALLY. THIS IS TO AVOID ANY POTENTIAL SECURITY ISSUES.**
 
- - [Report  Bug](https://github.com/jaspo-dev/employee-manage-system/issues)
- - [Request Feature](https://github.com/jaspo-dev/employee-manage-system/issues)
 
 Table of contents
 1. [About the project](#about-the-project)
@@ -96,10 +94,5 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 Distributed under the MIT License. See LICENSE for more information.
-
-## Contact
-
-Name: Jasper Perry - futuresea.talent.dev713@gmail.com
-ProjectLink: https://github.com/jaspo-dev/employee-manage-system
 
 
