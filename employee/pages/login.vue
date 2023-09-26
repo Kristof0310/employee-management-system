@@ -11,21 +11,21 @@
             <div class="pa-6 mt-7">
                 <v-form ref="form">
                     <v-text-field 
-                    v-model="email" 
-                    color="mainpurple" 
-                    label="Email" 
-                    :rules="[rules.required, rules.max, rules.email]"
+                        v-model="email" 
+                        color="mainpurple" 
+                        label="Email" 
+                        :rules="[rules.required, rules.max, rules.email]"
                     >
                         Email
                     </v-text-field>
                     <v-text-field 
-                    v-model="password" 
-                    color="mainpurple" 
-                    label="Password" 
-                    :rules="[rules.required, rules.max]"
-                    :append-icon="show ? 'mdi-eye' : 'mdi-eye-off'"
-                    :type="show ? 'text' : 'password'"
-                    @click:append="show = !show"
+                        v-model="password" 
+                        color="mainpurple" 
+                        label="Password" 
+                        :rules="[rules.required, rules.max]"
+                        :append-icon="show ? 'mdi-eye' : 'mdi-eye-off'"
+                        :type="show ? 'text' : 'password'"
+                        @click:append="show = !show"
                     >
                         Password
                     </v-text-field>
