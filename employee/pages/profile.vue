@@ -12,10 +12,11 @@
       {{message}}
       <template v-slot:action="{ attrs }">
         <v-icon
-        color="white"
-        size=23
-        v-bind="attrs"
-        @click="snackbar = false">
+          color="white"
+          size=23
+          v-bind="attrs"
+          @click="snackbar = false"
+        >
             mdi-close-circle
         </v-icon>
       </template>
@@ -25,10 +26,10 @@
       <v-col cols=12 md=4 sm=5 class="mb-6">
         <v-card shaped width="200" flat outlined>
           <v-img 
-          :src="hostImageUrl + avatar"
-          height='200'
-          width='200'
-          contain
+            :src="hostImageUrl + avatar"
+            height='200'
+            width='200'
+            contain
           >
           </v-img>
         </v-card>
